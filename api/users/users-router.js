@@ -1,4 +1,5 @@
 const router = require("express").Router()
+const { protect } = require('../auth/auth-middleware')
 
 const Users = require("./users-model.js")
 
